@@ -1,0 +1,24 @@
+{
+  "name": "parcel-meetup-example",
+  "version": "1.0.0",
+  "description": "```\r npm init\r entry: src/index.html\r npm install parcel-bundler --save-dev\r \"start\": \"parcel src/index.html --open\",\r \"build\": \"parcel build src/index.html\"\r npm install react\r npm install react-dom\r npm start\r npm build\r ```",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open --global issueModule",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinoltean96/parcel-meetup-example.git"
+  },
+  "author": "alin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinoltean96/parcel-meetup-example/issues"
+  },
+  "homepage": "https://github.com/alinoltean96/parcel-meetup-example#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
